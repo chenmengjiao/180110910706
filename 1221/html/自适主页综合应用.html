@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<!--添加文档主体内容-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<meta name="author" content="king">
+	<meta name="revised" content="king,05/26/2017">
+	<meta name="generator" content="WebStorm 2016.2.4">
+	<meta name="description" content="CSS & CSS3">
+	<meta name="keywords" content="HTML5, CSS, JavaScript">
+	<link rel="stylesheet" type="text/css" href="../css/自适主页.css">
+	<title>HTML5+CSS3+JS-自适应主页</title>
+</head>
+<body>
+	<!--添加文档主体内容-->
+	<header>
+		<div id="navmenu">
+			<span class="title">HTML5+CSS3+JS-自适应主页</span>
+			<span class="loginleft"><a href="#">登陆</a></span>
+			<ul>
+				<li class="borderleft"><a href="#" target="blank">主页</a></li>
+				<li><a href="#" target="blank">导航菜单</a></li>
+				<li><a href="#" target="blank">导航菜单</a>
+					<ul>
+						<li class="top"><a href="#"target="blank">导航菜单</a></li>
+						<li><a href="#" target="blank">导航菜单</a></li>
+						<li><a href="#" target="blank">导航菜单</a></li>
+					</ul>
+				</li>
+				<li><a href="#" target="blank">关于我们</a>
+					<ul>
+						<li class="top"><a href="#"target="blank">关于我们</a></li>
+						<li><a href="#" target="blank">关于我们</a></li>
+						<li><a href="#" target="blank">关于我们</a></li>
+					</ul>
+				</li>
+			</ul>
+			<span class="login"><a href="#">登陆</a></span>
+		</div>
+	</header>
+	<br>
+	<!--content-->
+	<div class="content">
+		<div class="leftBox">
+			<div class="navleft">
+				<ul class="navleftmenu">
+					<li><a onclick="on_html5_click();">HTML5</a></li>
+					<li><a onclick="on_css3_lick();">CSS3</a></li>
+					<li><a onclick="on_js_lick();">JavaScript</a></li>
+					<li><a onclick="on_chrome_lick();">Chrome</a></li>
+					<li><a onclick="on_firefox_lick();">Firefox</a></li>
+					<li><a onclick="on_safari_lick();">Safari</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="middleBox">
+			<p>large image:</p>
+			<img id="id-image-large" src="" alt="image_large" />
+		</div>
+		<div class="rightBox">
+			<p>small image:</p>
+			<img id="id-image-small" src="" alt="image_small" />
+		</div>
+	</div>
+	<!--FOOTER-->
+	<footer>
+		<p>copyright &copy; 2017 king &amp; king.</p>
+	</footer>
+	<!--添加文档主体内容-->
+	<script type="text/javascript" src="../js/自适应WEB主页媒体查询.js"></script>
+</body>
+</html>
