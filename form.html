@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<title>form</title>
+	</head>
+	<body>
+		<form action="#" method="get" target="_blank">
+			<p>
+				表单区域
+			</p>
+			<input type="submit" value="提交"/>
+		</form><br><br><br>
+		<form
+			action="#"
+			method="get"
+			target="_blank">
+			<p>用户名:<input type="text" name="form_name" /></p>
+			<input type="reset" value="重置"/>
+			<input type="submit" value="提交" />
+		</form>
+		<br><br><br>
+		<form 
+			action="#"
+			method="get"
+			target="_blank">
+			<table>
+				<tr>
+					<th>
+						<label for="id_form_username">同户名：</label>
+					</th>
+					<td>
+						<input type="text" name="name_form_username" id="id_form_username" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="id_form_nickname">昵称:</label>
+					</th>
+					<td>
+						<input type="text" name="name_form_nickname" id="id_form_nickname">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="id_form_age">年龄：</label>
+					</th>
+					<td>
+						<input type="text" name="name_form_age" id="id_form_age" />
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="id_form_level">级别：</label>
+					</th>
+					<td>
+						<input type="text" name="name_form_level" id="id_form_level" />
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="提交" />
+						<input type="reset" value="重置" />
+					</td>
+				</tr>
+			</table>
+		</form><br><br><br>
+		<form action="#" method="post" target="_self">
+			<table>
+				<caption>密码</caption>
+				<label for="id_form_pwd">密码：</label>
+				<input type="password" name="name_form_pwd" id="id_form_pwd">
+			</table>
+		</form><br><br><br>
+		<form action="#" method="get" target="_self">
+			<input type="radio" name="html_css_js" id="id_form_html" value="HTML" /><br>
+			<input type="radio" name="html_css_js" id="id_form_html" value="HTML" />
+			<input type="radio" /><br>
+			<input /><br>
+			<input type="checkbox" /><br>
+			<input type="checkbox" /><br>
+			<input type="checkbox" />
+		</form>
+		<form action="#" method="get" target="_blank">
+			<table>
+				<tr>
+					<th>选择：</th>
+				</tr>
+				<tr>
+					<td>
+						<select name="web">
+							<option value="html">html</option>
+							<option value="css">css</option>
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						<select>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
