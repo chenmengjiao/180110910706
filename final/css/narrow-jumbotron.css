@@ -3,6 +3,42 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.demo2-bg{
+	background:url(../img/27.jpg);
+	background-size:cover;
+	width:1600px;
+	height:1300px;
+	position:relative;
+}
+.demo2{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0；
+	width:1300px;
+	height:1300px;
+	line-height:50px;
+	background:rgba(255,255,255,0.4);
+}
+.demo3-bg{
+	background:url(../img/29.jpg);
+	background-size:cover;
+	width:1600px;
+	height:1400px;
+	position:relative;
+}
+.demo3{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width:1300px;
+	height:1300px;
+	line-height:50px;
+	background:rgba(255,255,255,0);
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
